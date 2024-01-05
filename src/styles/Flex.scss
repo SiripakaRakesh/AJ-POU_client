@@ -1,0 +1,30 @@
+.nav-flex-field-ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3px;
+
+    .nav-flex-field-ul-li{
+        padding: 7px 15px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+
+        .nav-flex-field-ul-li-text{
+            color: $button-text-color;
+            text-decoration: none;
+            background-color: inherit;
+        }
+
+        .nav-flex-field-ul-li-icons{
+            font-size: large;
+            color: $button-text-color;
+            padding: 10px;
+
+            &:hover{
+                background-color: $button-terrestrial-color;
+                padding: 12px;
+            }
+        }
+    }
+}
